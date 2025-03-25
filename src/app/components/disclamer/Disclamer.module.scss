@@ -1,0 +1,25 @@
+.disclamerBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Tahoma', Helvetica, sans-serif;
+}
+
+.disclamerTitle {
+  color: rgb(68, 68, 68);
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.disclamerText,
+.disclamerFooter {
+  text-align: center;
+  color: #2f09db;
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.disclamerFooter span {
+  text-decoration: underline;
+  font-weight: 500;
+}

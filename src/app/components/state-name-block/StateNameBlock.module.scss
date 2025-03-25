@@ -1,0 +1,23 @@
+.stateNameWrapper {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.stateNameBlock {
+  position: relative;
+  z-index: 100;
+  padding: 0 5rem;
+  min-width: 45rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  white-space: nowrap;
+  background-color: #3264a8;
+  border-radius: 0.4rem;
+  text-shadow: 0.2rem 0.2rem 0.4rem #000000;
+  color: #7cadf2;
+  font-size: 1.8rem;
+  font-family: 'Tahoma', Helvetica, sans-serif;
+}

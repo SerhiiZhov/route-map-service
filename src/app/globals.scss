@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  /*  outline: 1px solid green; */
+}
+
+*,
+*::before,
+*::after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+select {
+  appearance: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+html:has(.open) {
+  overflow: hidden;
+}
+
+@media screen and (min-width: 1921px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1920.98px) {
+  html {
+    font-size: calc(100dvw / 1440 * 10);
+  }
+}
+
+@media screen and (max-width: 1023.98px) {
+  html {
+    font-size: 10px;
+  }
+}

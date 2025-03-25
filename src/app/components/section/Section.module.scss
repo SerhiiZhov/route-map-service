@@ -1,0 +1,27 @@
+.section {
+  min-height: 100dvh;
+  padding: 1rem 0;
+  position: relative;
+  &::before {
+    z-index: -1;
+    content: '';
+    width: 100dvw;
+    height: 100dvh;
+    position: fixed;
+    inset: 0;
+    background: url('https://permits.mdot.ms.gov/Images/Mississippi/Load-Overview-Blurred.jpg')
+      0 0 / cover no-repeat;
+  }
+}
+
+.container {
+  padding: 0 8rem;
+  min-height: 100dvh;
+  height: 100%;
+  max-width: 144rem;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

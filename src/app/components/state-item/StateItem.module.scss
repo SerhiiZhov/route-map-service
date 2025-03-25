@@ -1,0 +1,36 @@
+.map {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.text {
+  pointer-events: none;
+  font-size: 1.2rem;
+}
+
+@media (hover: hover) {
+  .map:hover {
+    fill: rgb(169, 253, 253);
+    position: relative;
+    z-index: 10;
+    stroke-width: 0.2rem;
+    stroke: blue;
+  }
+  .map:hover + .text {
+    text-decoration: underline;
+    text-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.8);
+  }
+}
+@media (hover: none) {
+  .map:active {
+    fill: aqua;
+    position: relative;
+    z-index: 10;
+    stroke-width: 0.2rem;
+    stroke: rgb(0, 0, 122);
+  }
+  .map:active + .text {
+    text-decoration: underline;
+    text-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.8);
+  }
+}
